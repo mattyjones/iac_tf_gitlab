@@ -1,0 +1,31 @@
+---
+
+- name: Install common editors
+  apt:
+    pkg={{ item }}
+    state=present
+    update_cache=yes
+    cache_valid_time=3600
+  with_items: "{{ common_editor_pkgs }}"
+  become:
+    yes
+
+- name: Install common shells
+  apt:
+    pkg={{ item }}
+    state=present
+    update_cache=yes
+    cache_valid_time=3600
+  with_items: "{{ common_shell_pkgs }}"
+  become:
+    yes
+
+- name: Install common troublshooting packages
+  apt:
+    pkg={{ item }}
+    state=present
+    update_cache=yes
+    cache_valid_time=3600
+  with_items: "{{ common_troubleshooting_pkgs }}"
+  become:
+    yes

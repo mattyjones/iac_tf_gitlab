@@ -1,0 +1,1 @@
+{"rsync":{"/vagrant":{"type":"rsync","guestpath":"/vagrant","hostpath":"/Users/mjones/Projects/nda/tf_gitlab","disabled":false,"__vagrantfile":true,"owner":"vagrant","group":"vagrant"}}}

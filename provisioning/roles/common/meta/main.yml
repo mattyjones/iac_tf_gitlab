@@ -1,0 +1,3 @@
+---
+dependencies:
+  - { role: public/chusiang.vim-and-vi-mode }

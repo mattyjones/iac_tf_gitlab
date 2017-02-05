@@ -1,0 +1,18 @@
+---
+
+# Common editors
+common_editor_pkgs:
+  - nano
+
+# Common shells
+common_shell_pkgs:
+  - bash
+  - zsh
+
+# Common shells
+common_troubleshooting_pkgs:
+  - nmap
+  - glances
+  - lnav
+
+ansible_pkg_mgr: apt

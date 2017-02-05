@@ -1,0 +1,22 @@
+---
+# TODO
+#
+# create an inventory for NDA
+# create an inventory for DO
+# create an inventory for laptop/mini
+
+- hosts: all
+  gather_facts: False
+  remote_user: root
+  become: True
+  roles:
+    - common
+#    - development/debian
+#    - development/golang
+    # - development/lua
+#    - development/node
+    # - development/perl
+#    - development/python
+    # - development/ruby
+    # - development/scala
+    # - development/tex
